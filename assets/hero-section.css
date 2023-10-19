@@ -1,3 +1,19 @@
-.bg-hero-section {
-  width: 100%;
+.bottle {
+  position: absolute;
+  bottom: 40%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+.price {
+  position: absolute;
+  display: flex;
+  bottom: 15%;
+  right: 10%;
+  flex-direction: column;
+}
+
+.button-fm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
