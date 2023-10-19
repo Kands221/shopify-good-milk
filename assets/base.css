@@ -94,7 +94,7 @@ html.no-js .no-js-hidden {
 }
 
 .page-width {
-  max-width: var(--page-width);
+  max-width: 100%;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
@@ -3584,4 +3584,10 @@ details-disclosure > details {
     .button:not([disabled]).button--secondary:hover:after {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
+}
+
+#shopify-section-template--16943447474411__3bb08ce3-76d3-4686-8224-834bc33b202e {
+  background-image: url(https://cdn.shopify.com/s/files/1/0671/6548/7339/files/in-my-milk-era.png?v=1697743968) !important;
+  background-position: center center !important;
+  background-size: cover !important;
 }
