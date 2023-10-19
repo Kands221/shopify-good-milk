@@ -4,9 +4,15 @@
   "settings": [],
   "presets": [
     {
-      "name": "Welcome section Test",
+      "name": "Hero Section",
       "category": "layout"
     }
   ]
 }
 {% endschema %}
+<link rel='stylesheet' href='{{ 'hero-section.css' | asset_url }}'>
+<section class='background-hero'>
+  <div>
+    <img src='{{ 'in my milk era.png' | asset_url }}' class='bg-hero-section'>
+  </div>
+</section>
