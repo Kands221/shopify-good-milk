@@ -2,6 +2,7 @@
 <link rel="stylesheet" href="{{ 'component-search.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-menu-drawer.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-cart-notification.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'header.css' | asset_url }}">
 <link rel="stylesheet" href="{{ 'component-cart-items.css' | asset_url }}" media="print" onload="this.media='all'">
 {%- if settings.predictive_search_enabled -%}
   <link rel="stylesheet" href="{{ 'component-price.css' | asset_url }}" media="print" onload="this.media='all'">
@@ -83,6 +84,11 @@
     .list-menu__item--link {
       padding-bottom: 0.5rem;
       padding-top: 0.5rem;
+    }
+  }
+  @media screen and (max-width: 989px) {
+    .HeaderMenu- {
+     display: none;
     }
   }
 </style>
@@ -200,7 +206,7 @@
     {%- liquid
       if section.settings.menu != blank
         if section.settings.menu_type_desktop == 'dropdown'
-          render 'header-dropdown-menu'
+          render 'header-mega-menu'
         elsif section.settings.menu_type_desktop != 'drawer'
           render 'header-mega-menu'
         endif
@@ -236,6 +242,39 @@
         </h1>
       {%- endif -%}
     {%- endif -%}
+
+    <nav class="header__icons justify-self-center">
+      <ul class="list-menu list-menu--inline" role="list">
+        <li>
+          <a
+            id="HeaderMenu-{{ link.handle }}"
+            href="/pages/contact"
+            class="header__menu-item list-menu__item link link--text focus-inset"
+            aria-current="page"
+
+          >
+            <span class="heading">
+              CONTACT
+            </span>
+            <p class="heading2">GET IN TOUCH</p>
+          </a>
+        </li>
+        <li>
+          <a
+            id="HeaderMenu-{{ link.handle }}"
+            href="/pages/contact"
+            class="header__menu-item list-menu__item link link--text focus-inset"
+            aria-current="page"
+
+          >
+            <span class="heading">
+              ABOUT US
+            </span>
+            <p class="heading2">OUR STORY</p>
+          </a>
+        </li>
+      </ul>
+    </nav>
 
     <div class="header__icons{% if section.settings.enable_country_selector or section.settings.enable_language_selector %} header__icons--localization header-localization{% endif %}">
       <div class="desktop-localization-wrapper">
