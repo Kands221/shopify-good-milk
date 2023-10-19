@@ -2,6 +2,9 @@
   "sections": {
     "3bb08ce3-76d3-4686-8224-834bc33b202e": {
       "type": "hero-section",
+      "custom_css": [
+        "{background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0671\/6548\/7339\/files\/in-my-milk-era.png?v=1697743968) !important; background-color: transparent !important; background-position: top left !important; background-size: auto !important;}"
+      ],
       "settings": {
       }
     }
