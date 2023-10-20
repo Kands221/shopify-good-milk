@@ -94,10 +94,6 @@
   color: white;
 }
 
-.mega-menu__link--active:hover {
-  text-decoration-thickness: 0.2rem;
-}
-
 .mega-menu .mega-menu__list--condensed {
   display: block;
 }
@@ -106,7 +102,7 @@
   font-weight: normal;
 }
 
-.flex {
+.flex2 {
   display: flex !important;
 }
 
@@ -116,33 +112,35 @@
   border: 1px solid var(--text-colors-text-primary, #323232);
   background-color: white;
 }
-
-.flex li:nth-child(1) a:hover {
+.flex2 a:hover {
+  color: white;
+}
+.flex2 li:nth-child(1) a:hover {
   background-color: #643b29; /* Change to the desired background color for the first <a> element */
 }
 
-.flex li:nth-child(2) a:hover {
+.flex2 li:nth-child(2) a:hover {
   background-color: #b49868; /* Change to the desired background color for the second <a> element */
 }
 
-.flex li:nth-child(3) a:hover {
+.flex2 li:nth-child(3) a:hover {
   background-color: #519361; /* Change to the desired background color for the third <a> element */
 }
-.flex li:nth-child(4) a:hover {
+.flex2 li:nth-child(4) a:hover {
   background-color: #e885b1; /* Change to the desired background color for the first <a> element */
 }
-.flex li:nth-child(5) a:hover {
+.flex2 li:nth-child(5) a:hover {
   background-color: #643b29; /* Change to the desired background color for the first <a> element */
 }
 
-.flex li:nth-child(6) a:hover {
+.flex2 li:nth-child(6) a:hover {
   background-color: #b49868; /* Change to the desired background color for the second <a> element */
 }
 
-.flex li:nth-child(7) a:hover {
+.flex2 li:nth-child(7) a:hover {
   background-color: #519361; /* Change to the desired background color for the third <a> element */
 }
-.flex li:nth-child(8) a:hover {
+.flex2 li:nth-child(8) a:hover {
   background-color: #e885b1; /* Change to the desired background color for the first <a> element */
 }
 
