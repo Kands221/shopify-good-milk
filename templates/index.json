@@ -3,13 +3,16 @@
     "262d9a3b-b419-4aa6-8023-027e85426aff": {
       "type": "hero-section",
       "custom_css": [
-
+        "* {background: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0671\/6548\/7339\/files\/in-my-milk-era.png?v=1697743968\") !important;}"
       ],
       "settings": {
       }
     },
     "bc67f435-b515-4221-a5ed-9ddd7e8703dc": {
       "type": "proposition",
+      "custom_css": [
+
+      ],
       "settings": {
       }
     },
