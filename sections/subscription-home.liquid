@@ -10,8 +10,11 @@
   ]
 }
 {% endschema %}
-
-<section>
-  <p>20000000000000</p>
-  <img src='{{ 'Subscription-bottle.png' | asset_url }}'>
+<link rel='stylesheet' href='{{ 'subscription-home.css' | asset_url }}'>
+<section class='background-subscription'>
+  <div class='flex'>
+    <img src='{{ 'Subscription-bottle.png' | asset_url }}'>
+    <p class='deliver'>Do you want milk to be delivered at your doorstep?</p>
+    <a href='/' class='subscribe'>LEARN HOW TO SUBSCRIBE</a>
+  </div>
 </section>

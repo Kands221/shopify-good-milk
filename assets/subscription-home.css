@@ -1,0 +1,29 @@
+.background-subscription {
+  background-color: #fffcf1;
+}
+.flex {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.deliver {
+  color: #323232;
+
+  text-align: center;
+  font-family: Verdana;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.12px;
+}
+
+.subscribe {
+  color: #323232;
+
+  font-family: Verdana;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
