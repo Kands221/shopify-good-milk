@@ -3,7 +3,7 @@
     "262d9a3b-b419-4aa6-8023-027e85426aff": {
       "type": "hero-section",
       "custom_css": [
-        "* {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0671\/6548\/7339\/files\/in-my-milk-era.png?v=1697743968\") !important;}"
+        "* {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0671\/6548\/7339\/files\/in-my-milk-era.png?v=1697743968\") !important; background-size: cover; background-position: center center}"
       ],
       "settings": {
       }
