@@ -12,17 +12,27 @@
 {% endschema %}
 
 <link rel='stylesheet' href='{{ 'product-showcase.css' | asset_url }}'>
-<section class='parent-grid'>
-  <div class='grid-milk'>
-    <img src='{{ 'Fresh Milk Showcase.png' | asset_url }}'>
-  </div>
-  <div class='grid-milk'>
-    <img src='{{ 'Fresh Milk Showcase.png' | asset_url }}'>
-  </div>
-  <div class='grid-milk'>
-    <img src='{{ 'Fresh Milk Showcase.png' | asset_url }}'>
-  </div>
-  <div class='grid-milk'>
-    <img src='{{ 'Fresh Milk Showcase.png' | asset_url }}'>
-  </div>
-</section>
+<div class='parent'>
+  <section class='parent-grid'>
+    <div class='grid-milk freshmilk'>
+      <img src='{{ 'Fresh Milk Showcase.png' | asset_url }}'>
+      <h3>Lorem ipsum dolor sit amet consectetur. FRESH MILK aliquam lectus scelerisque pretium purus.</h3>
+      <a href='/'>LEARN MORE</a>
+    </div>
+    <div class='grid-milk chocolate'>
+      <img src='{{ 'chocolate.png' | asset_url }}'>
+      <h3>Lorem ipsum dolor sit amet consectetur. FRESH MILK aliquam lectus scelerisque pretium purus.</h3>
+      <a href='/'>LEARN MORE</a>
+    </div>
+    <div class='grid-milk pandan'>
+      <img src='{{ 'pandan.png' | asset_url }}'>
+      <h3>Lorem ipsum dolor sit amet consectetur. FRESH MILK aliquam lectus scelerisque pretium purus.</h3>
+      <a href='/'>LEARN MORE</a>
+    </div>
+    <div class='grid-milk strawberry'>
+      <img src='{{ 'strawberry.png' | asset_url }}'>
+      <h3>Lorem ipsum dolor sit amet consectetur. FRESH MILK aliquam lectus scelerisque pretium purus.</h3>
+      <a href='/'>LEARN MORE</a>
+    </div>
+  </section>
+</div>
