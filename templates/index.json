@@ -2,6 +2,9 @@
   "sections": {
     "262d9a3b-b419-4aa6-8023-027e85426aff": {
       "type": "hero-section",
+      "custom_css": [
+
+      ],
       "settings": {
       }
     }
