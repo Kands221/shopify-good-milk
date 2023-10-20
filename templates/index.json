@@ -12,10 +12,16 @@
       "type": "proposition",
       "settings": {
       }
+    },
+    "33af6d46-e545-4477-afcb-b256df9ce242": {
+      "type": "product-showcase",
+      "settings": {
+      }
     }
   },
   "order": [
     "262d9a3b-b419-4aa6-8023-027e85426aff",
-    "bc67f435-b515-4221-a5ed-9ddd7e8703dc"
+    "bc67f435-b515-4221-a5ed-9ddd7e8703dc",
+    "33af6d46-e545-4477-afcb-b256df9ce242"
   ]
 }
