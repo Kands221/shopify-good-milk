@@ -18,6 +18,11 @@
       "settings": {
       }
     },
+    "a5ee899f-ce8c-4aac-964c-e7827af5a65d": {
+      "type": "subscription-home",
+      "settings": {
+      }
+    },
     "2fd637b5-8004-4108-92a4-d87af12c1800": {
       "type": "carousel",
       "settings": {
@@ -33,6 +38,7 @@
     "262d9a3b-b419-4aa6-8023-027e85426aff",
     "bc67f435-b515-4221-a5ed-9ddd7e8703dc",
     "33af6d46-e545-4477-afcb-b256df9ce242",
+    "a5ee899f-ce8c-4aac-964c-e7827af5a65d",
     "2fd637b5-8004-4108-92a4-d87af12c1800",
     "16380b45-a3e3-4a54-bd83-fc756a341e13"
   ]
