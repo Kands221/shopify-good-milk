@@ -91,7 +91,7 @@
   transform: translateX(-50%);
   width: 110%;
   height: 140vmin;
-  background: #36aa52;
+  background: black;
   clip-path: circle(69.1% at 50% 100%);
   z-index: -1;
 }
