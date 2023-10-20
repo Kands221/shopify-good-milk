@@ -10,9 +10,35 @@
   ]
 }
 {% endschema %}
+<style>
+  .section-top-banner {
+    display: flex;
 
+    background-image: url({{ section.settings.bgimg | image_url }});
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+</style>
 <div
-  class='background-hero'
-  style="background-image:url('{{ 'in-my-milk-era.png' | asset_url }}')"
+  class='uns_hero_static'
+  style="background-image:url('{{ section.settings.bg-image.src | img_url: 'large' }}')"
   ​​​​​​
-></div>
+>
+  <h1>{{ section.settings.uns_text_line }}</h1>
+</div>
+
+{% schema %}
+{
+  "name": "Hero",
+  "settings": [
+    { "id": "image", "type": "image_picker", "label": "Background Image" },
+    { "id": "uns_text_line", "type": "text", "label": "Header Text", "default": "Snappy words here!" }
+  ],
+  "presets": [{ "name": "Hero Static Image", "category": "Hero" }]
+}
+{% endschema %}
