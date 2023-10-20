@@ -7,9 +7,15 @@
       ],
       "settings": {
       }
+    },
+    "bc67f435-b515-4221-a5ed-9ddd7e8703dc": {
+      "type": "proposition",
+      "settings": {
+      }
     }
   },
   "order": [
-    "262d9a3b-b419-4aa6-8023-027e85426aff"
+    "262d9a3b-b419-4aa6-8023-027e85426aff",
+    "bc67f435-b515-4221-a5ed-9ddd7e8703dc"
   ]
 }
