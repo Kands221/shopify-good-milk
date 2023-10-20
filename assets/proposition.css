@@ -1,0 +1,26 @@
+.milk-match {
+  text-align: center;
+  padding: 0 15%;
+}
+
+.proposition {
+  display: flex;
+  justify-content: space-between; /* Distribute items evenly across the container */
+  max-width: 1200px; /* Set a maximum width for the container if desired */
+  margin: 0 auto; /* Center the container on the page */
+}
+
+.flex {
+  flex: 1; /* Distribute available space equally among the three columns */ /* Limit the maximum width of each column */
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px; /* Add a border for better visualization */
+}
+p {
+  text-align: center;
+}
+.flex img {
+  max-width: 132px; /* Set a maximum width for the images inside the columns */
+}

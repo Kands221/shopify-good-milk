@@ -10,7 +10,7 @@
   ]
 }
 {% endschema %}
-
+<link rel='stylesheet' href='{{ 'proposition.css' | asset_url }}'>
 <Section class=''>
   <div class='milk-match'>
     <img src='{{ 'milk-match.png' | asset_url }}'>
@@ -21,20 +21,20 @@
     </p>
   </div>
   <div class='proposition'>
-    <div class='premium'>
-      <img src='Premium Fresh Quality.png'>
+    <div class='premium flex'>
+      <img src='{{ 'Premium Fresh Quality.png' | asset_url }}'>
       <h2>Premium Fresh Quality</h2>
-      <p></p>
+      <p>Lorem ipsum dolor sit amet consectetur. Id dignissim lectus in in rhoncus adipiscing ultricies hendrerit.</p>
     </div>
-    <div class='local'>
-      <img src='Locally Produced.png'>
+    <div class='local flex'>
+      <img src='{{ 'Locally Produced.png' | asset_url }}'>
       <h2>Locally Produced</h2>
-      <p></p>
+      <p>Lorem ipsum dolor sit amet consectetur. Id dignissim lectus in in rhoncus adipiscing ultricies hendrerit.</p>
     </div>
-    <div class='organic'>
-      <img src='100% organic.png'>
+    <div class='organic flex'>
+      <img src='{{ 'Organic.png' | asset_url }}'>
       <h2>100% Organic</h2>
-      <p></p>
+      <p>Lorem ipsum dolor sit amet consectetur. Id dignissim lectus in in rhoncus adipiscing ultricies hendrerit.</p>
     </div>
   </div>
 </Section>
