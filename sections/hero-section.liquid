@@ -10,20 +10,6 @@
   ]
 }
 {% endschema %}
-<style>
-  .section-top-banner {
-    display: flex;
-
-    background-image: url({{ section.settings.bgimg | image_url }});
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-    height: 350px;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-  }
-</style>
 <div
   class='uns_hero_static'
   style="background-image:url('{{ section.settings.bg-image.src | img_url: 'large' }}')"
