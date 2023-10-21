@@ -44,8 +44,8 @@
             {{ block.settings.text }}
           </div>
         {%- when 'email_form' -%}
-          <div {{ block.shopify_attributes }}>
-            {% form 'customer', class: 'newsletter-form' %}
+          {% form 'customer', class: 'newsletter-form' %}
+            <div {{ block.shopify_attributes }}>
               <input type='hidden' name='contact[tags]' value='newsletter'>
               <div
                 class='newsletter-form__field-wrapper{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}'
@@ -99,17 +99,17 @@
                   {{- 'newsletter.success' | t }}
                 </h3>
               {%- endif -%}
-              <button
-                type='submit'
-                class='newsletter-form__button field__button button-newsletter'
-                name='commit'
-                id='Subscribe'
-                aria-label='{{ 'newsletter.button_label' | t }}'
-              >
-                <h3>Submit</h3>
-              </button>
-            {% endform %}
-          </div>
+            </div>
+            <button
+              type='submit'
+              class='button-field newsletter-form__button field__button button-newsletter'
+              name='commit'
+              id='Subscribe'
+              aria-label='{{ 'newsletter.button_label' | t }}'
+            >
+              <h4 class='submit-button'>Submit</h4>
+            </button>
+          {% endform %}
       {%- endcase -%}
     {%- endfor -%}
   </div>

@@ -1,9 +1,10 @@
 .newsletter-form {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 100%;
+  gap: 20px;
   position: relative;
 }
 
@@ -20,7 +21,7 @@
 }
 
 .newsletter-form__field-wrapper .field__input {
-  padding-right: 5rem;
+  padding-right: 2rem;
 }
 
 .newsletter-form__field-wrapper .field {
@@ -43,7 +44,7 @@
 }
 
 .newsletter-form__button {
-  width: 4.4rem;
+  width: 130px;
   margin: 0;
   right: var(--inputs-border-width);
   top: 0;
