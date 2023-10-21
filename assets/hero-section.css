@@ -1,3 +1,16 @@
-.bottle {
-  position: absolute;
+.background {
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+
+.img-bottle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.responsive {
+  object-fit: contain;
 }
