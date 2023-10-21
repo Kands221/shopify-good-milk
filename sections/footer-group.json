@@ -66,6 +66,10 @@
         "ae8dbef1-7021-4530-9230-0666db31538c",
         "738ecb97-1ddc-4187-8154-4de20911a2e6"
       ],
+      "custom_css": [
+        ".footer-block__details-content{display:flex;}",
+        "a{font-size: 2rem;}"
+      ],
       "settings": {
         "color_scheme": "inverse",
         "newsletter_enable": false,
