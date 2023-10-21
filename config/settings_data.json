@@ -95,10 +95,10 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
-    "social_facebook_link": "",
-    "social_instagram_link": "",
+    "social_facebook_link": "https:\/\/www.facebook.com\/profile.php?id=61551715617731&mibextid=LQQJ4d",
+    "social_instagram_link": "https:\/\/instagram.com\/thegoodmilkph?igshid=MzRlODBiNWFlZA==",
     "social_youtube_link": "",
-    "social_tiktok_link": "",
+    "social_tiktok_link": "https:\/\/www.tiktok.com\/@thegoodmilkph?_t=8g2TLSLXOjp&_r=1",
     "social_twitter_link": "",
     "social_snapchat_link": "",
     "social_pinterest_link": "",
@@ -154,7 +154,7 @@
       },
       "inverse": {
         "settings": {
-          "background": "#242833",
+          "background": "#323232",
           "background_gradient": "",
           "text": "#ffffff",
           "button": "#ffffff",
