@@ -11,12 +11,12 @@
   .newsletter-form {
     align-items: flex-start;
     margin: 0 auto;
-    max-width: 36rem;
+    max-width: 50%;
   }
 }
 
-.newsletter-form__field-wrapper {
-  width: 100%;
+.button-newsletter {
+  justify-content: flex-end;
 }
 
 .newsletter-form__field-wrapper .field__input {
