@@ -61,7 +61,7 @@
         "share"
       ],
       "custom_css": [
-        ".shopify-payment-button__button {background-color: black; color: white;}"
+        ".product-form__buttons {background: black; border-radius: 50px;}"
       ],
       "settings": {
         "enable_sticky_info": false,
