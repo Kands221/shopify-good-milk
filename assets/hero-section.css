@@ -22,7 +22,9 @@
   width: 90%;
   margin: 10% auto auto;
 }
-
+.fm-button {
+  text-align: center;
+}
 .prices {
   display: flex;
   flex-direction: column;
