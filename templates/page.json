@@ -37,8 +37,7 @@
       ],
       "custom_css": [
         ".field__input {border: 1px solid black;}",
-        ".newsletter-form__button {background: #323232;}",
-        ".submit-button{color: white;}"
+        ".submit-button {color: white; background: #323232; }"
       ],
       "settings": {
         "color_scheme": "",
