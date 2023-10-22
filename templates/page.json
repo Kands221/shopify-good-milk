@@ -36,7 +36,9 @@
         "template--21363828392222__4b6d5df6-ede4-4f29-aaa6-c32d54548107-email_form-1"
       ],
       "custom_css": [
-
+        ".field__input {border: 1px solid black;}",
+        ".newsletter-form__button {background: #323232;}",
+        ".submit-button{color: white;}"
       ],
       "settings": {
         "color_scheme": "",
