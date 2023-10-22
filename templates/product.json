@@ -48,6 +48,12 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "7c52e961-947c-4aa6-8ecf-98cebdceb469": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -58,7 +64,8 @@
         "description",
         "quantity_selector",
         "buy_buttons",
-        "share"
+        "share",
+        "7c52e961-947c-4aa6-8ecf-98cebdceb469"
       ],
       "custom_css": [
         ".button {background: black; border-radius: 50px;}",
@@ -165,6 +172,7 @@
       "block_order": [
         "3744251c-51ee-4b6d-a9b8-2d44385356ed"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true
       }
