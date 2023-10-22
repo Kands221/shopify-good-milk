@@ -37,13 +37,13 @@
       ],
       "custom_css": [
         ".field__input {border: 1px solid black;}",
-        ".submit-button {color: white; background: #323232; }"
+        ".submit-button {color: white; background: #323232;}"
       ],
       "settings": {
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 68
       }
     }
   },
