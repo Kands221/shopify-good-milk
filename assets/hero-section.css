@@ -19,12 +19,15 @@
 
 .button-fm {
   margin-top: 10%;
+  max-width: 376px;
+  margin: 10% auto;
 }
 
 .prices {
   display: flex;
   flex-direction: column;
   margin-left: 3%;
+  margin-top: 10%;
 }
 
 .bottle-container {
