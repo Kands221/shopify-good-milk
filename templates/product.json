@@ -60,6 +60,10 @@
         "buy_buttons",
         "share"
       ],
+      "custom_css": [
+        ".button {background: black; border-radius: 50px;}",
+        ".button span{color: white;}"
+      ],
       "settings": {
         "enable_sticky_info": false,
         "media_size": "small",
