@@ -101,12 +101,12 @@
                     </label>
                     <button
                       type='submit'
-                      class='newsletter-form__button field__button'
+                      class='button-field newsletter-form__button field__button button-newsletter'
                       name='commit'
                       id='Subscribe'
                       aria-label='{{ 'newsletter.button_label' | t }}'
                     >
-                      {% render 'icon-arrow' %}
+                      <h4 class='submit-button'>Submit</h4>
                     </button>
                   </div>
                   {%- if form.errors -%}
