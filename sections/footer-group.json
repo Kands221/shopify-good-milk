@@ -68,8 +68,9 @@
       ],
       "custom_css": [
         ".footer-block__details-content {display: flex; gap: 4rem; margin-bottom: 0;}",
-        "ul{align-items: center;}",
-        "a {font-size: 2rem; color: white;}"
+        "ul {align-items: center;}",
+        "a {font-size: 2rem; color: white;}",
+        ".footer-block {display: flex; justify-content: center; align-items: center;}"
       ],
       "settings": {
         "color_scheme": "inverse",
