@@ -13,12 +13,12 @@ document.addEventListener('DOMContentLoaded', function () {
   idInput = form.querySelector('input[name="id"]');
 
   const circleColor = [
-    '#36AA52',
-    '#FFE3AC',
-    '#FFAAD2',
-    '#FFE3AC',
-    '#FFAAD2',
-    '#85574E',
+    '#E8FFE9',
+    '#FFFCF1',
+    '#FEF5F5',
+    '#FFFCF1',
+    '#FEF5F5',
+    '#E9FAFF',
   ];
   const variants = [
     '47000953913630',
