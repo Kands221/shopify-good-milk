@@ -2,16 +2,42 @@
   max-width: 100%;
 }
 
+.label {
+  font-size: 3rem;
+}
 .contact .form__message {
   align-items: flex-start;
 }
-
+.contact__button {
+  text-align: center;
+}
 .contact .icon-success {
   margin-top: 0.2rem;
 }
 
 .contact .field {
   margin-bottom: 1.5rem;
+}
+
+.column-two {
+  margin: 0 5rem;
+  margin-bottom: 2.5rem;
+}
+
+.email-contact {
+  display: inline-flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.icon-socials {
+  display: inline-flex;
+  gap: 24px;
+  align-items: center;
+}
+.email-socials {
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 750px) {
@@ -22,18 +48,45 @@
 
 .contact__button {
   margin-top: 3rem;
+  text-align: center;
 }
 
 @media screen and (min-width: 750px) {
   .contact__button {
     margin-top: 4rem;
   }
-}
-
-@media screen and (min-width: 750px) {
-  .contact__fields {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 2rem;
+  .column-one {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  .column-two {
+    width: 50%;
+    margin-left: 15%;
+  }
+  .email-socials {
+    display: flex;
+    flex-direction: column;
+  }
+  .icon-socials {
+    display: inline-flex;
+    gap: 24px;
+    text-decoration: none;
+    align-items: center;
+  }
+  .email-contact {
+    display: inline-flex;
+    align-items: center;
+    gap: 24px;
+  }
+  .label {
+    margin: 0;
+  }
+  .form-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin: auto;
   }
 }
