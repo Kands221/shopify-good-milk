@@ -18,10 +18,16 @@
 
 .button-newsletter {
   justify-content: flex-end;
+  border-radius: 10px;
 }
-
+.label_field {
+  color: black;
+}
 .newsletter-form__field-wrapper .field__input {
   padding-right: 2rem;
+  background: white;
+  border-radius: 10px;
+  color: black;
 }
 
 .newsletter-form__field-wrapper .field {

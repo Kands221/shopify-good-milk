@@ -22,7 +22,12 @@
 .newsletter__wrapper > * + .newsletter-form {
   margin-top: 3rem;
 }
-
+.field:before {
+  content: none;
+}
+.field::after {
+  content: none;
+}
 .newsletter__subheading {
   max-width: 70rem;
   margin-left: auto;
@@ -34,6 +39,7 @@
 .newsletter__wrapper .newsletter-form__field-wrapper {
   max-width: 50rem;
   width: 1000px;
+  border-radius: 10px;
 }
 .submit-button {
   border: 1px solid #fffdfa;
