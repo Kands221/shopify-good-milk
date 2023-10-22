@@ -60,6 +60,9 @@
         "buy_buttons",
         "share"
       ],
+      "custom_css": [
+        ".shopify-payment-button__button {background-color: black; color: white;}"
+      ],
       "settings": {
         "enable_sticky_info": false,
         "media_size": "small",
