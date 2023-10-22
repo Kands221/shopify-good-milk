@@ -16,3 +16,22 @@
   height: auto;
   width: 15%;
 }
+
+.button-fm {
+  margin-top: 10%;
+}
+
+.prices {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3%;
+}
+
+.bottle-container {
+  position: absolute;
+  width: 100vw;
+  height: auto;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
