@@ -9,6 +9,10 @@
     },
     "form": {
       "type": "contact-form",
+      "custom_css": [
+        ".button {border-radius: 100px; background: black; color: white;}",
+        ".field__input {padding: 2.2rem 1.5rem 0.4rem 2rem;}"
+      ],
       "settings": {
         "heading": "",
         "heading_size": "h1",
