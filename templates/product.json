@@ -61,7 +61,8 @@
         "share"
       ],
       "custom_css": [
-        ".product-form__buttons {background: black; border-radius: 50px;}"
+        ".button {background: black; border-radius: 50px;}",
+        ".button span{color: white;}"
       ],
       "settings": {
         "enable_sticky_info": false,
