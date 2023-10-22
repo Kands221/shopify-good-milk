@@ -32,6 +32,8 @@
 
 .newsletter-form__field-wrapper .field {
   z-index: 0;
+  display: flex;
+  gap: 20px;
 }
 
 .newsletter-form__message {
@@ -50,7 +52,7 @@
 }
 
 .newsletter-form__button {
-  width: 130px;
+  width: 250px;
   margin: 0;
   right: var(--inputs-border-width);
   top: 0;

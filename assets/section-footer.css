@@ -10,7 +10,16 @@
   padding-bottom: 5rem;
   display: block;
 }
-
+.footer__copyright {
+  display: flex;
+  flex-direction: column;
+}
+.location-copyright {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
 @media screen and (max-width: 749px) {
   .footer .grid {
     display: block;

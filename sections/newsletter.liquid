@@ -78,6 +78,15 @@
                   <label class='label_field field__label' for='NewsletterForm--{{ section.id }}'>
                     {{ 'newsletter.label' | t }}
                   </label>
+                  <button
+                    type='submit'
+                    class='button-field newsletter-form__button field__button button-newsletter'
+                    name='commit'
+                    id='Subscribe'
+                    aria-label='{{ 'newsletter.button_label' | t }}'
+                  >
+                    <h4 class='submit-button'>Submit</h4>
+                  </button>
                 </div>
 
                 {%- if form.errors -%}
@@ -100,15 +109,6 @@
                 </h3>
               {%- endif -%}
             </div>
-            <button
-              type='submit'
-              class='button-field newsletter-form__button field__button button-newsletter'
-              name='commit'
-              id='Subscribe'
-              aria-label='{{ 'newsletter.button_label' | t }}'
-            >
-              <h4 class='submit-button'>Submit</h4>
-            </button>
           {% endform %}
       {%- endcase -%}
     {%- endfor -%}
