@@ -57,4 +57,10 @@
   .bottle-container {
     left: 50%;
   }
+  .bottle {
+    width: 50%;
+  }
+  .prices {
+    width: 90%;
+  }
 }
