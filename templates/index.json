@@ -23,8 +23,7 @@
         "h3 {font-family: Verdana;}",
         "span {font-family: Lilita One;}",
         ".choco-details {color: #643b29;}",
-        ".fm-details {color: #643b29;}",
-        "* {background: #fffdfa;}"
+        ".fm-details {color: #643b29;}"
       ],
       "settings": {
       }
