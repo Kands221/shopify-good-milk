@@ -61,8 +61,10 @@
   top: calc(50% - 1.5rem);
   position: absolute;
   cursor: pointer;
+  border: none;
+  max-width: 133px;
+  background: none;
   font-size: 1.5rem;
-  /* Adjust the button position */
   transform: translateY(-50%);
 }
 
