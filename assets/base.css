@@ -126,9 +126,6 @@ html.no-js .no-js-hidden {
   padding: 0 1.5rem;
 }
 
-.shopify-section {
-  background-color: #fffdfa;
-}
 body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
   max-width: 100%;
 }
