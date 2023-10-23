@@ -29,8 +29,9 @@
     "header": {
       "type": "header",
       "custom_css": [
-        "a{margin-top: 20px;}",
-        "summary{margin-top: 20px;}"
+        "a {margin-top: 20px;}",
+        "summary {margin-top: 20px;}",
+        "*{background-color: #fffdfa;}"
       ],
       "settings": {
         "logo_position": "middle-center",
