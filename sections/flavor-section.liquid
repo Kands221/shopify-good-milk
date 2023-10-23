@@ -28,6 +28,7 @@
 
   // Store the original image source
   const originalImgSrc = imgFlavor.src;
+  const originalFlvrImgSrc = checkFlavor.src
 
   // Add a hover event listener to the check-flavor div
   checkFlavor.addEventListener('mouseover', () => {
@@ -42,5 +43,6 @@
     backgroundFlavor.style.backgroundColor = '#323232'; // Reset background color
     imgFlavor.src = originalImgSrc;
     flavorMood.style.color = 'white';
+    imgFlavor.src = originalFlvrImgSrc;
   });
 </script>
