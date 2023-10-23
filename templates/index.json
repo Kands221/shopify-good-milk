@@ -18,6 +18,9 @@
     },
     "33af6d46-e545-4477-afcb-b256df9ce242": {
       "type": "product-showcase",
+      "custom_css": [
+        "h3 {font-family: Lilita One; font-weight: 400;}"
+      ],
       "settings": {
       }
     },
