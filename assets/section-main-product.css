@@ -22,9 +22,6 @@
     top: 3rem;
     z-index: 2;
   }
-  .width-page {
-    padding: 0 25rem;
-  }
 
   .product--thumbnail .thumbnail-list {
     padding-right: var(--media-shadow-horizontal-offset);
@@ -682,6 +679,9 @@ a.product__text {
 @media screen and (min-width: 990px) {
   .product--stacked .product__media-item {
     max-width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
+  }
+  .width-page {
+    padding: 0 25rem;
   }
 
   .product:not(.product--columns)
