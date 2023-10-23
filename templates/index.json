@@ -56,6 +56,9 @@
     },
     "0b8c31af-518b-482d-a15b-c086f77adb41": {
       "type": "carousel",
+      "custom_css": [
+
+      ],
       "settings": {
       }
     },
