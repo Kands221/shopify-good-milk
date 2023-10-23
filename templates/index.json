@@ -24,7 +24,7 @@
         "span {font-family: Lilita One;}",
         ".choco-details {color: #643b29;}",
         ".fm-details {color: #643b29;}",
-        "* {background: #fffdfa;}"
+        "{background: #fffdfa;}"
       ],
       "settings": {
       }
