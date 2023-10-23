@@ -55,6 +55,8 @@
   .parent-grid {
     flex-direction: column;
     flex-wrap: nowrap;
+  }
+  .grid-milk {
     flex: none;
   }
 }
