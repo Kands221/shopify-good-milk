@@ -48,4 +48,13 @@
     background-size: cover !important;
     background: center;
   }
+  .price {
+    display: none;
+  }
+  .img-bottle {
+    flex-direction: column;
+  }
+  .bottle-container {
+    left: 50%;
+  }
 }
