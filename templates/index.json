@@ -3,7 +3,7 @@
     "262d9a3b-b419-4aa6-8023-027e85426aff": {
       "type": "hero-section",
       "custom_css": [
-        ".background {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0671\/6548\/7339\/files\/in-my-milk-era.png?v=1697743968\") !important; background-size: 100% 100%; height: 100vh;}"
+        ".background {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0832\/6139\/1134\/files\/in-my-milk-era.png?v=1698062947\") !important; background-size: 100% 100%; height: 100vh;}"
       ],
       "settings": {
       }
@@ -21,7 +21,7 @@
       "custom_css": [
         "h3 {font-family: Verdana;}",
         "span {font-family: Lilita One;}",
-        ".choco-details{}"
+        ".choco-details {}"
       ],
       "settings": {
       }
