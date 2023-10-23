@@ -11,7 +11,7 @@
   justify-content: space-between; /* Distribute items evenly across the container */
   max-width: 1200px; /* Set a maximum width for the container if desired */
   margin: 0 auto;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .flex {
@@ -27,4 +27,11 @@ p {
 }
 .flex img {
   max-width: 132px; /* Set a maximum width for the images inside the columns */
+}
+
+@media screen and (max-width: 992px) {
+  .proposition {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
 }
