@@ -41,11 +41,6 @@
   width: 100%;
 }
 
-.check-flavor:hover img {
-  /* Change the image inside .check-flavor on hover */
-  content: url('check2.png');
-}
-
 @media screen and (max-width: 990px) {
   .background-flavor {
     height: 60vh;
