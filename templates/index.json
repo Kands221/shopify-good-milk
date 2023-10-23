@@ -20,7 +20,8 @@
       "type": "product-showcase",
       "custom_css": [
         "h3 {font-family: Verdana;}",
-        "span{font-family: Lilita One;}"
+        "span {font-family: Lilita One;}",
+        ".choco-details{}"
       ],
       "settings": {
       }
