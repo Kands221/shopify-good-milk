@@ -23,6 +23,10 @@
   position: static;
 }
 
+.menu-drawer__menu-item {
+  padding: 1.2rem;
+}
+
 .mega-menu__content {
   background-color: rgb(var(--color-background));
   border-left: 0;
