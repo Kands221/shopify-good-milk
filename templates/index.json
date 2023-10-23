@@ -11,7 +11,7 @@
     "bc67f435-b515-4221-a5ed-9ddd7e8703dc": {
       "type": "proposition",
       "custom_css": [
-
+        "p {font-family: Verdana; color: #323232;}"
       ],
       "settings": {
       }
