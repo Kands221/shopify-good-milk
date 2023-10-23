@@ -12,7 +12,7 @@
       "type": "proposition",
       "custom_css": [
         "p {font-family: Verdana; color: #323232;}",
-        "section{background-color: #FFFDFA;}"
+        "section {background-color: #fffdfa;}"
       ],
       "settings": {
       }
@@ -23,7 +23,8 @@
         "h3 {font-family: Verdana;}",
         "span {font-family: Lilita One;}",
         ".choco-details {color: #643b29;}",
-        ".fm-details {color: #643b29;}"
+        ".fm-details {color: #643b29;}",
+        "section{}"
       ],
       "settings": {
       }
