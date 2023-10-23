@@ -70,7 +70,9 @@
         ".footer-block__details-content {display: flex; gap: 4rem; margin-bottom: 0;}",
         "ul {align-items: center;}",
         "a {font-size: 2rem; color: white;}",
-        ".footer-block {display: flex; justify-content: center; align-items: center;}"
+        ".footer-block {display: flex; justify-content: center; align-items: center;}",
+        ".link--text {font-size: 28px;}",
+        "@media screen and (max-width: 990px) {.list-unstyled {flex-direction: column; }}"
       ],
       "settings": {
         "color_scheme": "inverse",
