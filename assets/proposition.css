@@ -27,7 +27,7 @@ p {
   text-align: center;
 }
 .flex img {
-  max-width: 132px; /* Set a maximum width for the images inside the columns */
+  max-width: 100%; /* Set a maximum width for the images inside the columns */
 }
 
 @media screen and (max-width: 992px) {
