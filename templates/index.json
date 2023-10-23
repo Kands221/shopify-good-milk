@@ -11,7 +11,8 @@
     "bc67f435-b515-4221-a5ed-9ddd7e8703dc": {
       "type": "proposition",
       "custom_css": [
-        "p {font-family: Verdana; color: #323232;}"
+        "p {font-family: Verdana; color: #323232;}",
+        "section{background-color: #FFFDFA;}"
       ],
       "settings": {
       }
@@ -22,7 +23,7 @@
         "h3 {font-family: Verdana;}",
         "span {font-family: Lilita One;}",
         ".choco-details {color: #643b29;}",
-        ".fm-details {color: #643B29;}"
+        ".fm-details {color: #643b29;}"
       ],
       "settings": {
       }
