@@ -51,3 +51,10 @@
   align-items: flex-start;
   flex-direction: column;
 }
+@media screen and (max-width: 992px) {
+  .parent-grid {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex: none;
+  }
+}
