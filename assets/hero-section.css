@@ -41,3 +41,10 @@
   left: 60%;
   transform: translate(-50%, -50%);
 }
+
+@media screen and (max-width: 992px) {
+  .background {
+    background-size: cover;
+    background: center;
+  }
+}
