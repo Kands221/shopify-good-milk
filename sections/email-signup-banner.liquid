@@ -70,8 +70,9 @@
             <div class='newsletter__subheading rte {{ block.settings.text_style }}' {{ block.shopify_attributes }}>
               {{ block.settings.text }}
             </div>
-            <h2>Spilling it soon</h2>
+
           {%- when 'email_form' -%}
+            <h2>Spilling it soon</h2>
             <div {{ block.shopify_attributes }}>
               {% form 'customer', class: 'newsletter-form' %}
                 <input type='hidden' name='contact[tags]' value='newsletter'>
