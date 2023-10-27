@@ -1,30 +1,15 @@
-@font-face {
-  font-family: 'Lilita One';
-  src: url('https://cdn.shopify.com/s/files/1/0815/9982/4175/files/LilitaOne-Regular.woff2?v=1692368028')
-      format('woff2'),
-    url('https://cdn.shopify.com/s/files/1/0815/9982/4175/files/LilitaOne-Regular.woff?v=1692368028')
-      format('woff'),
-    url('https://cdn.shopify.com/s/files/1/0815/9982/4175/files/LilitaOne-Regular.otf?v=1692368029')
-      format('opentype');
-}
-
-@font-face {
-  font-family: 'Verdana';
-  src: url('https://cdn.shopify.com/s/files/1/0815/9982/4175/files/verdana.woff2?v=1692464553')
-      format('woff2'),
-    url('https://cdn.shopify.com/s/files/1/0815/9982/4175/files/verdana.woff?v=1692464553')
-      format('woff'),
-    url('https://cdn.shopify.com/s/files/1/0815/9982/4175/files/verdana.otf?v=1692464553')
-      format('opentype');
-}
-
 h2 {
-  font-family: 'Lilita One' !important;
+  font-family: 'Nunito Sans', sans-serif !important;
 }
 
 p {
-  font-family: 'Verdana' !important;
+  font-family: 'Helvetica' !important;
 }
+
+li {
+  font-family: 'Nunito Sans', sans-serif !important;
+}
+
 :root {
   --alpha-button-background: 1;
   --alpha-button-border: 1;
