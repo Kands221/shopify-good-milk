@@ -139,7 +139,9 @@ details[open].menu-opening > .menu-drawer__submenu {
 .no-js .menu-drawer__submenu .menu-drawer__submenu .menu-drawer__menu-item {
   padding-left: 9rem;
 }
-
+summary.list-menu__item {
+  padding-right: 0;
+}
 .no-js .menu-drawer__menu-item .icon-caret {
   right: 3rem;
 }
