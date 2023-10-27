@@ -59,7 +59,7 @@
   font-size: 28px;
 }
 .button:after {
-  border: none;
+  content: none;
 }
 .st-details {
   color: #e885b1;
