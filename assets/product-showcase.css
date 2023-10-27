@@ -22,6 +22,9 @@
   text-align: center;
   width: 100%;
 }
+.description-product {
+  margin: 0 18rem;
+}
 /* Add your other styles for images and text here */
 .flex-milk img {
   width: 50%;
