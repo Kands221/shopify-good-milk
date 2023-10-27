@@ -190,6 +190,10 @@ cart-items {
 
 .cart__checkout-button {
   max-width: 36rem;
+  color: #fffdfa;
+  border-radius: 100px;
+  background: #323232;
+  font-family: 'Nunito Sans';
 }
 
 .cart__ctas {
