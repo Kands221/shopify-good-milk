@@ -7,16 +7,16 @@ document.addEventListener('DOMContentLoaded', () => {
   ];
 
   let newBottleImageUrl = [
-    '{{"Fresh Milk Bottle.png" | asset_url}}',
-    '{{"FRONT_STRAW.png" | asset_url}}',
-    '{{"FRONT_CHOC.png" | asset_url}}',
-    '{{"FRONT_PAN.png" | asset_url}}',
+    '{{ "Fresh Milk Bottle.png" | asset_url }}',
+    '{{ "FRONT_STRAW.png" | asset_url }}',
+    '{{ "FRONT_CHOC.png" | asset_url }}',
+    '{{ "FRONT_PAN.png" | asset_url }}',
   ];
   let newButtonImageUrl = [
-    "{{'FM_button.png' | asset_url}}",
-    "{{'ST_button.png' | asset_url}}",
-    "{{'CH_button.png' | asset_url}}",
-    "{{'PA_button.png' | asset_url}}",
+    "{{ 'FM_button.png' | asset_url }}",
+    "{{ 'ST_button.png' | asset_url }}",
+    "{{ 'CH_button.png' | asset_url }}",
+    "{{ 'PA_button.png' | asset_url }}",
   ];
 
   const backgroundElement = document.querySelector('.background');
