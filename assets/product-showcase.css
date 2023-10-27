@@ -52,15 +52,19 @@
 }
 .pa-details {
   color: #17702e;
+  font-size: 28px;
 }
 .ch-details {
   color: #643b29;
+  font-size: 28px;
 }
 .st-details {
   color: #e885b1;
+  font-size: 28px;
 }
 .fm-details {
   color: #b49868;
+  font-size: 28px;
 }
 
 @media screen and (max-width: 992px) {
