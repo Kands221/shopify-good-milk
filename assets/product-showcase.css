@@ -35,6 +35,10 @@
 
 @media screen and (max-width: 992px) {
   .parent-grid {
+    display: block;
+  }
+  .parent {
+    margin: auto;
   }
   .flex-milk {
     flex: none;
