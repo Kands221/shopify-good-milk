@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   let newBackgroundImageUrl = [
+    'https://cdn.shopify.com/s/files/1/0832/6139/1134/files/in-my-milk-era.png?v=1698407322',
     'https://cdn.shopify.com/s/files/1/0832/6139/1134/files/on_wednesdays.png?v=1698407641',
     'https://cdn.shopify.com/s/files/1/0832/6139/1134/files/milk-flix.png?v=1698407634',
     'https://cdn.shopify.com/s/files/1/0832/6139/1134/files/different.png?v=1698407623',
