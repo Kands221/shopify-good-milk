@@ -70,7 +70,6 @@
             <div class='newsletter__subheading rte {{ block.settings.text_style }}' {{ block.shopify_attributes }}>
               {{ block.settings.text }}
             </div>
-
           {%- when 'email_form' -%}
             <div {{ block.shopify_attributes }}>
               {% form 'customer', class: 'newsletter-form' %}
@@ -134,7 +133,6 @@
         {%- endcase -%}
       {%- endfor -%}
     </div>
-    <h2>Spilling it soon</h2>
   </div>
 </div>
 
