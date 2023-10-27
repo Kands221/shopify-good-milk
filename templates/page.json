@@ -7,9 +7,44 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "4b6d5df6-ede4-4f29-aaa6-c32d54548107": {
+      "type": "newsletter",
+      "blocks": {
+        "template--21363828392222__4b6d5df6-ede4-4f29-aaa6-c32d54548107-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "We’re reviving a culture and tradition that everyone has been longing for – cherish new milk memories with a very modern twist.",
+            "heading_size": "h2"
+          }
+        },
+        "template--21363828392222__4b6d5df6-ede4-4f29-aaa6-c32d54548107-paragraph-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Hold on tight! We’re bringing something exciting to your door.<\/p><p>Just like the good ol' days.<\/p><p>One doorstep at a time.  <\/p>"
+          }
+        },
+        "template--21363828392222__4b6d5df6-ede4-4f29-aaa6-c32d54548107-email_form-1": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--21363828392222__4b6d5df6-ede4-4f29-aaa6-c32d54548107-heading-1",
+        "template--21363828392222__4b6d5df6-ede4-4f29-aaa6-c32d54548107-paragraph-1",
+        "template--21363828392222__4b6d5df6-ede4-4f29-aaa6-c32d54548107-email_form-1"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "4b6d5df6-ede4-4f29-aaa6-c32d54548107"
   ]
 }
