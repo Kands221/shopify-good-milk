@@ -12,7 +12,7 @@
       "type": "contact-form",
       "custom_css": [
         ".button {border-radius: 100px; background: #323232; color: white;}",
-        ".field__input {padding: 2.2rem 1.5rem 0.4rem 2rem; border: 2px solid black;}"
+        ".field__input {padding: 2.2rem 1.5rem 0.4rem 2rem; border: 2px solid #323232;}"
       ],
       "settings": {
         "heading": "Contact Form",
