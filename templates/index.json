@@ -54,17 +54,10 @@
     "895c32e8-a771-4bc9-9392-9fb03b95adae": {
       "type": "image-with-text",
       "blocks": {
-        "template--21363828490526__895c32e8-a771-4bc9-9392-9fb03b95adae-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
         "template--21363828490526__895c32e8-a771-4bc9-9392-9fb03b95adae-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<h2>Smooth, velvety, and naturally sweet FRESH MILK, a cult classic.<\/h2>",
             "text_style": "body"
           }
         },
@@ -78,11 +71,149 @@
         }
       },
       "block_order": [
-        "template--21363828490526__895c32e8-a771-4bc9-9392-9fb03b95adae-heading-1",
         "template--21363828490526__895c32e8-a771-4bc9-9392-9fb03b95adae-text-1",
         "template--21363828490526__895c32e8-a771-4bc9-9392-9fb03b95adae-button-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Fresh_Milk_Showcase.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b55050e4-20eb-4405-8b0f-3a41c44229c8": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--21363828490526__b55050e4-20eb-4405-8b0f-3a41c44229c8-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--21363828490526__b55050e4-20eb-4405-8b0f-3a41c44229c8-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--21363828490526__b55050e4-20eb-4405-8b0f-3a41c44229c8-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21363828490526__b55050e4-20eb-4405-8b0f-3a41c44229c8-heading-1",
+        "template--21363828490526__b55050e4-20eb-4405-8b0f-3a41c44229c8-text-1",
+        "template--21363828490526__b55050e4-20eb-4405-8b0f-3a41c44229c8-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/chocolate.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "6b521687-e842-4aa8-bbfa-ab955e61ad15": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--21363828490526__6b521687-e842-4aa8-bbfa-ab955e61ad15-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--21363828490526__6b521687-e842-4aa8-bbfa-ab955e61ad15-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--21363828490526__6b521687-e842-4aa8-bbfa-ab955e61ad15-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21363828490526__6b521687-e842-4aa8-bbfa-ab955e61ad15-heading-1",
+        "template--21363828490526__6b521687-e842-4aa8-bbfa-ab955e61ad15-text-1",
+        "template--21363828490526__6b521687-e842-4aa8-bbfa-ab955e61ad15-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/strawberry.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "f3f6b5e3-b8c8-402e-89b8-f08ea9d9fa9a": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--21363828490526__f3f6b5e3-b8c8-402e-89b8-f08ea9d9fa9a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--21363828490526__f3f6b5e3-b8c8-402e-89b8-f08ea9d9fa9a-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--21363828490526__f3f6b5e3-b8c8-402e-89b8-f08ea9d9fa9a-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21363828490526__f3f6b5e3-b8c8-402e-89b8-f08ea9d9fa9a-heading-1",
+        "template--21363828490526__f3f6b5e3-b8c8-402e-89b8-f08ea9d9fa9a-text-1",
+        "template--21363828490526__f3f6b5e3-b8c8-402e-89b8-f08ea9d9fa9a-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pandan.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -120,6 +251,9 @@
     "bc67f435-b515-4221-a5ed-9ddd7e8703dc",
     "f7920c3c-d589-4f43-87da-f9f80d9847c4",
     "895c32e8-a771-4bc9-9392-9fb03b95adae",
+    "b55050e4-20eb-4405-8b0f-3a41c44229c8",
+    "6b521687-e842-4aa8-bbfa-ab955e61ad15",
+    "f3f6b5e3-b8c8-402e-89b8-f08ea9d9fa9a",
     "a5ee899f-ce8c-4aac-964c-e7827af5a65d",
     "0b8c31af-518b-482d-a15b-c086f77adb41",
     "16380b45-a3e3-4a54-bd83-fc756a341e13"
