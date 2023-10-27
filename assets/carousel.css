@@ -172,6 +172,12 @@ form {
   .bg-carousel {
     height: 150vh;
   }
+  .slider-button.right img {
+    width: 50%;
+  }
+  .slider-button.left img {
+    width: 50%;
+  }
 }
 /*Checkpoint to Mobile*/
 @media screen and (max-aspect-ratio: 16/9) and (max-width: 990px) {
