@@ -17,6 +17,11 @@
       "settings": {
       }
     },
+    "627a1282-4617-4dc8-b0c6-6d57913febbb": {
+      "type": "product-showcase",
+      "settings": {
+      }
+    },
     "f7920c3c-d589-4f43-87da-f9f80d9847c4": {
       "type": "rich-text",
       "blocks": {
@@ -73,6 +78,7 @@
   "order": [
     "262d9a3b-b419-4aa6-8023-027e85426aff",
     "bc67f435-b515-4221-a5ed-9ddd7e8703dc",
+    "627a1282-4617-4dc8-b0c6-6d57913febbb",
     "f7920c3c-d589-4f43-87da-f9f80d9847c4",
     "a5ee899f-ce8c-4aac-964c-e7827af5a65d",
     "0b8c31af-518b-482d-a15b-c086f77adb41",
