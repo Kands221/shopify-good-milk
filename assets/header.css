@@ -155,4 +155,8 @@
   .justify-self-center {
     display: none;
   }
+  .list-menu__item {
+    flex-direction: column;
+    align-items: center;
+  }
 }
