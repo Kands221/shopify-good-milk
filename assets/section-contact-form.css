@@ -18,7 +18,9 @@
 .contact .field {
   margin-bottom: 1.5rem;
 }
-
+a {
+  text-decoration: none;
+}
 .column-two {
   margin: 0 5rem;
   margin-bottom: 2.5rem;
