@@ -2,7 +2,6 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -35,6 +34,7 @@
         "template--21363828392222__4b6d5df6-ede4-4f29-aaa6-c32d54548107-paragraph-1",
         "template--21363828392222__4b6d5df6-ede4-4f29-aaa6-c32d54548107-email_form-1"
       ],
+      "disabled": true,
       "custom_css": [
         ".field__input {border: 1px solid black;}",
         ".submit-button {color: white; background: #323232;}"
