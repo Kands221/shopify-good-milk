@@ -70,7 +70,7 @@
       "custom_css": [
         ".button {background: black; border-radius: 50px;}",
         ".button span {color: white;}",
-        "span {font-family: Helvetica;}"
+        "span {font-family: Helvetica !important;}"
       ],
       "settings": {
         "enable_sticky_info": false,
