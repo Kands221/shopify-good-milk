@@ -74,6 +74,7 @@
         "ul {align-items: center;}",
         "a {font-size: 2rem; color: white;}",
         ".footer-block {display: flex; justify-content: center; align-items: center;}",
+        ".footer__blocks-wrapper div:nth-of-type(2) {flex: 2;}",
         ".link--text {font-size: 28px;}",
         ".list-payment__item {display: none;}",
         "@media screen and (max-width: 990px) {.list-unstyled {flex-direction: column; } .list-social {flex-direction: row; }}"
