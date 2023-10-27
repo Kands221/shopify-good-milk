@@ -74,7 +74,6 @@
 
 .slider-button.left img {
   rotate: 180deg;
-  max-width: 50%;
   height: auto;
 }
 .slider-button.right img {
