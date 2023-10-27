@@ -35,6 +35,10 @@
         "template--21363828392222__4b6d5df6-ede4-4f29-aaa6-c32d54548107-paragraph-1",
         "template--21363828392222__4b6d5df6-ede4-4f29-aaa6-c32d54548107-email_form-1"
       ],
+      "custom_css": [
+        ".field__input {border: 1px solid black;}",
+        ".submit-button {color: white; background: #323232;}"
+      ],
       "settings": {
         "color_scheme": "",
         "full_width": true,
