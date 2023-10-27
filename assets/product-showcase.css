@@ -53,6 +53,19 @@
 .pandan-button {
   background: #519361;
 }
+.pa-details {
+  color: #17702e;
+}
+.ch-details {
+  color: #643b29;
+}
+.st-details {
+  color: #e885b1;
+}
+.fm-details {
+  color: #b49868;
+}
+
 @media screen and (max-width: 992px) {
   .parent-grid {
     display: block;
