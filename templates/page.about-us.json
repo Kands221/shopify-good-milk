@@ -7,9 +7,147 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "a465db5c-f693-4908-9440-3ebbe0de615d": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21395613483294__a465db5c-f693-4908-9440-3ebbe0de615d-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Story",
+            "heading_size": "h2"
+          }
+        },
+        "template--21395613483294__a465db5c-f693-4908-9440-3ebbe0de615d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We're all about local, nutritious, and affordable milk. <\/p><p>“Sounds basic.”<\/p><p>“Isn’t that the bare minimum?” “Wait, another milk brand again?”<\/p><p>“Ugh, milk is so overrated. It all tastes the same anyway.” <\/p><p>But hold on a second,<\/p><p>We’re more than just a cool, new, slay, cute, TikTok drink, okay – you get it.<\/p>"
+          }
+        },
+        "1c28f956-3aa2-43b1-a1db-8daad0412e16": {
+          "type": "heading",
+          "settings": {
+            "heading": "We're an experience.",
+            "heading_size": "h2"
+          }
+        },
+        "2321d770-5364-4e70-abc0-8ca1f7a1c9f2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For you, your friends, family, and count in your imaginary main character self-directed movie. <\/p><p> Classic, chill, work and play – we've got a flavor to match every moo-d. Our milk is so good it will make you forget all about water. Kidding! But seriously, it's just that good.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21395613483294__a465db5c-f693-4908-9440-3ebbe0de615d-heading-1",
+        "template--21395613483294__a465db5c-f693-4908-9440-3ebbe0de615d-text-1",
+        "1c28f956-3aa2-43b1-a1db-8daad0412e16",
+        "2321d770-5364-4e70-abc0-8ca1f7a1c9f2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "cdd61b17-c58a-4fae-a8ea-57994604feba": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21395613483294__cdd61b17-c58a-4fae-a8ea-57994604feba-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>“The Good Milk is a brand that blasts from the past.” <br\/>We're putting a spin on the Filipino tradition of bringing milk closer to each and every home. Do you remember the days when the “Lecheros” a.k.a. a milkman (or milkwoman if you will) delivered creamy and fresh milk right to your door? We wanted to bring back that old-school tradition to keep up with the ever-changing, playful, and vibrant culture of Manila.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21395613483294__cdd61b17-c58a-4fae-a8ea-57994604feba-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "8bda6ad9-28fb-4412-afc8-db76b1589801": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21395613483294__8bda6ad9-28fb-4412-afc8-db76b1589801-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We all enjoy and remember a good Filipino breakfast,  and a glass of milk is always present on the table. We created The Good Milk to envision a brand that not only captures your taste but also celebrates the personality of modern Filipinos and our role in our country. <br\/>“We incorporate it with core values such as social responsibility, sustainability, and playfulness.”<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21395613483294__8bda6ad9-28fb-4412-afc8-db76b1589801-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "right",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "702e25ff-2dbc-4632-8c0d-6c3b92a08aeb": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21395613483294__702e25ff-2dbc-4632-8c0d-6c3b92a08aeb-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Now you're probably thinking, \"Why bother with cow's milk when there are so many alternatives out there?\". Our cows receive the best care possible, Every bottle you purchase comes from the happiest and healthiest cows around. Because the cows are healthier when the grass is greener.  <br\/>“And it's a lush green on the good milk’s side.”<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21395613483294__702e25ff-2dbc-4632-8c0d-6c3b92a08aeb-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "14864bb2-078e-4289-b608-ce013b010e60": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21395613483294__14864bb2-078e-4289-b608-ce013b010e60-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As part of our commitment to the future, The Good Milk supports the education of agriculture scholars at De La Salle Araneta University. <br\/>“Every bottle you purchase means the future for our agricultural leaders.”<br\/> From our dedicated local farmers directly to the Filipino community, and to you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21395613483294__14864bb2-078e-4289-b608-ce013b010e60-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "a465db5c-f693-4908-9440-3ebbe0de615d",
+    "cdd61b17-c58a-4fae-a8ea-57994604feba",
+    "8bda6ad9-28fb-4412-afc8-db76b1589801",
+    "702e25ff-2dbc-4632-8c0d-6c3b92a08aeb",
+    "14864bb2-078e-4289-b608-ce013b010e60"
   ]
 }
