@@ -76,7 +76,6 @@
         ".footer-block {display: flex; justify-content: center; align-items: center;}",
         ".link--text {font-size: 28px;}",
         ".list-payment__item {display: none;}",
-        ".grid__item{flex-grow: 0;}",
         "@media screen and (max-width: 990px) {.list-unstyled {flex-direction: column; } .list-social {flex-direction: row; }}"
       ],
       "settings": {
