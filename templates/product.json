@@ -112,35 +112,25 @@
         "template--21363828326686__ce590428-52bb-45fd-9da0-4b59249f7a02-collapsible_row-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Our Story",
+            "heading": "Perfectly paired with:",
             "icon": "none",
-            "row_content": "<p>The Good Milk was born out of a deep connection with a Filipino community dedicated to nurturing the future of agricultural leaders. As we mapped out ways to support them, it was clear that we all loved milk across generations. As we progress, we also started introducing a personalized touch to each bottle, celebrating individuality and fostering genuine connections with our consumers. Constantly striving for excellence, The Good Milk transcended being just a beverage. It's now a medium of self-expression and a catalyst for change.  <\/p>",
+            "row_content": "<p>Plain pastries, sliced fruits, crackers, cheesecake, salted potato chips, and practically everything!<\/p>",
             "page": ""
           }
         },
         "template--21363828326686__ce590428-52bb-45fd-9da0-4b59249f7a02-collapsible_row-2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Our Mission",
+            "heading": "Handling Instructions:",
             "icon": "none",
-            "row_content": "<p>At The Good Milk, our mission is two-fold. First, to deliver the freshest and most delightful milk sourced from our dedicated local farmers directly to the Filipino community. Every bottle is a testament to the richness of our land and the passion of our farmers. Second, but just as significant, is our commitment to the future. By supporting the education of future agriculture leaders, we ensure that the legacy of farming thrives, enriching the community for generations to come. The future is bright, and with your support, we're making it even brighter!<\/p>",
-            "page": ""
-          }
-        },
-        "template--21363828326686__ce590428-52bb-45fd-9da0-4b59249f7a02-collapsible_row-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Our Vision",
-            "icon": "none",
-            "row_content": "<p>Every sip, every bottle, every moment with The Good Milk is designed to instill everyday delight. Our vision is not just to quench thirst, but to bring joy, uplift moods, and create moments worth cherishing. Through our personalized bottles, we aim to resonate with your tastes and preferences. We don't just offer milk; we offer an experience that lightens up your day, every day.<\/p>",
+            "row_content": "<p>Stored in our sterilized 250ml glass bottles, the metal lid ensures that every drop stays as fresh as the first sip. It's best enjoyed within 3 days of opening, so don't wait too long to savor this rich and chocolatey drink. And remember,  always keep it refrigerated.<\/p>",
             "page": ""
           }
         }
       },
       "block_order": [
         "template--21363828326686__ce590428-52bb-45fd-9da0-4b59249f7a02-collapsible_row-1",
-        "template--21363828326686__ce590428-52bb-45fd-9da0-4b59249f7a02-collapsible_row-2",
-        "template--21363828326686__ce590428-52bb-45fd-9da0-4b59249f7a02-collapsible_row-3"
+        "template--21363828326686__ce590428-52bb-45fd-9da0-4b59249f7a02-collapsible_row-2"
       ],
       "custom_css": [
         "h3 {font-family: \"Lilita One\"; font-size: 2rem;}",
