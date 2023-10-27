@@ -109,7 +109,6 @@
   gap: 2%; /* Relative gap */
   flex-shrink: 0;
   border: none;
-  background: #c9dd41;
   font-family: Verdana, sans-serif; /* Added fallback font */
   font-style: normal;
   font-weight: 700;
