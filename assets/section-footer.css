@@ -1,7 +1,13 @@
 .footer {
   border-top: 0.1rem solid rgba(var(--color-foreground), 0.08);
 }
-
+.footer__blocks-wrapper div:nth-of-type(2),
+.footer__blocks-wrapper div:nth-of-type(3) {
+  flex: 1;
+}
+.footer__blocks-wrapper div:nth-of-type(2) {
+  flex: 2;
+}
 .footer:not(.color-background-1) {
   border-top: none;
 }
