@@ -18,7 +18,10 @@
   line-height: normal;
   letter-spacing: 0.24px;
 }
-
+.header__heading {
+  display: flex;
+  margin-bottom: 30px;
+}
 .mega-menu {
   position: static;
 }
