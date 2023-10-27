@@ -228,7 +228,7 @@ details[open].menu-opening > .menu-drawer__submenu {
 @media screen and (max-width: 989px) {
   .header--has-localizations:where(:not(.header--has-social))
     .menu-drawer__utility-links {
-    padding: 2rem 3rem;
+    padding: 0;
   }
   summary.list-menu__item {
     padding-right: 0;
