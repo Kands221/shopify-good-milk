@@ -30,7 +30,7 @@
         "sections--16944793977067__450ec5d4-611a-43db-bd6b-7dcfc859a729-paragraph-1"
       ],
       "custom_css": [
-        "@media screen and (min-width: 750px) {.newsletter-form {max-width: 55%; } .newsletter__wrapper .newsletter-form__field-wrapper {max-width: 70rem; }}"
+        "@media screen and (min-width: 750px) {.newsletter-form {max-width: 55%; } .newsletter__wrapper .newsletter-form__field-wrapper {max-width: 70rem; } .form-newsletter {width: 90%; }}"
       ],
       "settings": {
         "color_scheme": "inverse",
