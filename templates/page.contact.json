@@ -11,11 +11,11 @@
     "9c704188-81ba-4863-aae7-df8f60474732": {
       "type": "contact-form",
       "custom_css": [
-        ".field:before{border: 2px solid black;}"
+        ".field:before {border: 2px solid black;}"
       ],
       "settings": {
-        "heading": "Contact form",
-        "heading_size": "h1",
+        "heading": "Have Questions for us?",
+        "heading_size": "h2",
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
