@@ -17,7 +17,7 @@
         "sections--21363827999006__07fc00c4-945a-4218-92b7-864f09247849-announcement-1"
       ],
       "custom_css": [
-        "{font-family: \"Helvetica\" !important;}"
+        "span{font-family: \"Helvetica\" !important;}"
       ],
       "settings": {
         "color_scheme": "",
