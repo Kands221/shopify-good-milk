@@ -41,7 +41,7 @@
       ],
       "custom_css": [
         ".rich-text__blocks {max-width: 100%;}",
-        " {background: #FFFDFA;}"
+        " {background: #fffdfa;}"
       ],
       "settings": {
         "desktop_content_position": "center",
