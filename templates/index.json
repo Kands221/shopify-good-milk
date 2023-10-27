@@ -17,16 +17,80 @@
       "settings": {
       }
     },
-    "33af6d46-e545-4477-afcb-b256df9ce242": {
-      "type": "product-showcase",
-      "custom_css": [
-        "h3 {font-family: Verdana;}",
-        "span {font-family: Lilita One;}",
-        ".choco-details {color: #643b29;}",
-        ".fm-details {color: #643b29;}",
-        " {background-color: #fffdfa;}"
+    "f7920c3c-d589-4f43-87da-f9f80d9847c4": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21363828490526__f7920c3c-d589-4f43-87da-f9f80d9847c4-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Here comes four times the fun! Try one or try them all",
+            "heading_size": "h1"
+          }
+        },
+        "914621a6-4142-4d1c-b339-eccfc12027a9": {
+          "type": "heading",
+          "settings": {
+            "heading": "(We won’t tell anyone if you crave more)",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--21363828490526__f7920c3c-d589-4f43-87da-f9f80d9847c4-heading-1",
+        "914621a6-4142-4d1c-b339-eccfc12027a9"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "895c32e8-a771-4bc9-9392-9fb03b95adae": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--21363828490526__895c32e8-a771-4bc9-9392-9fb03b95adae-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--21363828490526__895c32e8-a771-4bc9-9392-9fb03b95adae-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--21363828490526__895c32e8-a771-4bc9-9392-9fb03b95adae-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21363828490526__895c32e8-a771-4bc9-9392-9fb03b95adae-heading-1",
+        "template--21363828490526__895c32e8-a771-4bc9-9392-9fb03b95adae-text-1",
+        "template--21363828490526__895c32e8-a771-4bc9-9392-9fb03b95adae-button-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "a5ee899f-ce8c-4aac-964c-e7827af5a65d": {
@@ -51,7 +115,8 @@
   "order": [
     "262d9a3b-b419-4aa6-8023-027e85426aff",
     "bc67f435-b515-4221-a5ed-9ddd7e8703dc",
-    "33af6d46-e545-4477-afcb-b256df9ce242",
+    "f7920c3c-d589-4f43-87da-f9f80d9847c4",
+    "895c32e8-a771-4bc9-9392-9fb03b95adae",
     "a5ee899f-ce8c-4aac-964c-e7827af5a65d",
     "0b8c31af-518b-482d-a15b-c086f77adb41",
     "16380b45-a3e3-4a54-bd83-fc756a341e13"
