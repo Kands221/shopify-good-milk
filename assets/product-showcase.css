@@ -10,8 +10,8 @@
   flex-wrap: wrap;
 }
 
-.grid-milk {
-  flex: 1 0 50%; /* Two columns, each taking 50% width */
+.flex-milk {
+  align-items: center;
   padding: 20px;
   box-sizing: border-box;
   text-align: center;
