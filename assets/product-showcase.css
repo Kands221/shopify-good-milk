@@ -34,7 +34,12 @@
   max-height: 739.78px;
   flex-shrink: 0;
 }
-
+.chocolate {
+  flex-direction: row-reverse;
+}
+.pandan {
+  flex-direction: row-reverse;
+}
 @media screen and (max-width: 992px) {
   .parent-grid {
     display: block;
