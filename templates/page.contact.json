@@ -11,7 +11,9 @@
     "9c704188-81ba-4863-aae7-df8f60474732": {
       "type": "contact-form",
       "custom_css": [
-        ".field:before {border: 2px solid black;}"
+        "select {border: 2px solid #323232;}",
+        "input {border: 2px solid #323232;}",
+        "textarea {border: 2px solid #323232;}"
       ],
       "settings": {
         "heading": "Have Questions for us?",
