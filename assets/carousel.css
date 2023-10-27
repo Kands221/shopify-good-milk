@@ -173,10 +173,10 @@ form {
     height: 150vh;
   }
   .slider-button.right img {
-    width: 50%;
+    width: 100%;
   }
   .slider-button.left img {
-    width: 50%;
+    width: 100%;
   }
 }
 /*Checkpoint to Mobile*/
