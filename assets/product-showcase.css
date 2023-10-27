@@ -35,12 +35,11 @@
 
 @media screen and (max-width: 992px) {
   .parent-grid {
-    flex-direction: column;
-    flex-wrap: nowrap;
+    display: none;
   }
   .flex-milk {
     flex: none;
-    padding: 0;
+    flex-direction: column;
   }
   .pandan {
     margin-top: 5%;
