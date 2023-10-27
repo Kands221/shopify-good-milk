@@ -44,6 +44,12 @@
     flex: none;
     flex-direction: column;
   }
+  .flex-milk img {
+    width: 100%;
+  }
+  .description-product {
+    margin: auto;
+  }
   .pandan {
     margin-top: 5%;
   }
