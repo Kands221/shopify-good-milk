@@ -172,6 +172,10 @@ form {
   .bg-carousel {
     height: 150vh;
   }
+  .slider-button {
+    width: 80px;
+    height: 80px;
+  }
   .slider-button.right img {
     width: 100%;
   }
