@@ -11,10 +11,11 @@
   justify-content: space-between; /* Distribute items evenly across the container */
   max-width: 1200px; /* Set a maximum width for the container if desired */
   margin: 0 auto;
-  align-items: center;
   flex-wrap: wrap;
 }
-
+.organic h2 {
+  margin-top: 45px;
+}
 .flex {
   flex: 1; /* Distribute available space equally among the three columns */ /* Limit the maximum width of each column */
   text-align: center;
@@ -33,5 +34,8 @@ p {
   .proposition {
     flex-direction: column;
     flex-wrap: nowrap;
+  }
+  .organic h2 {
+    margin-top: 16.6px;
   }
 }
