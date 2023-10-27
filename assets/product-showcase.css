@@ -29,28 +29,7 @@
   max-height: 739.78px;
   flex-shrink: 0;
 }
-.freshmilk {
-  display: flex;
-  align-items: flex-end;
-  flex-direction: column;
-}
-.pandan {
-  display: flex;
-  align-items: flex-end;
-  flex-direction: column;
-}
-.chocolate {
-  margin-top: 5%;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.strawberry {
-  margin-top: 5%;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
+
 @media screen and (max-width: 992px) {
   .parent-grid {
     flex-direction: column;
