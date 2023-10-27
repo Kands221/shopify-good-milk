@@ -10,7 +10,9 @@ p {
 li {
   font-family: 'Nunito Sans', sans-serif !important;
 }
-
+span {
+  font-family: 'Nunito Sans', sans-serif !important;
+}
 :root {
   --alpha-button-background: 1;
   --alpha-button-border: 1;
