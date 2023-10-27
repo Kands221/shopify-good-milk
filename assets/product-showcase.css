@@ -18,9 +18,8 @@
   text-align: center;
 }
 
-.flex-milk a {
-  text-align: center;
-  width: 100%;
+.fm-details {
+  font-size: 28px;
 }
 .description-product {
   margin: 0 18rem;
