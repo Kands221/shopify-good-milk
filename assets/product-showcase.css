@@ -1,3 +1,10 @@
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 .parent-grid {
   display: flex;
   flex-wrap: wrap;
