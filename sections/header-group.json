@@ -11,10 +11,26 @@
             "text": "SHIPPING LOCALLY AND FRESHLY",
             "link": ""
           }
+        },
+        "65bd73c1-46ab-4476-b161-3289c9a4020c": {
+          "type": "announcement",
+          "settings": {
+            "text": "GET MILK MOO-VING RIGHT. SUBSCRIBE HERE",
+            "link": "shopify:\/\/pages\/subscription"
+          }
+        },
+        "d648bed9-3e0e-418e-87fd-6a4d471ee7ff": {
+          "type": "announcement",
+          "settings": {
+            "text": "FREE SHIPPING ON ORDER 700 PHP AND ABOVE",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "sections--21363827999006__07fc00c4-945a-4218-92b7-864f09247849-announcement-1"
+        "sections--21363827999006__07fc00c4-945a-4218-92b7-864f09247849-announcement-1",
+        "65bd73c1-46ab-4476-b161-3289c9a4020c",
+        "d648bed9-3e0e-418e-87fd-6a4d471ee7ff"
       ],
       "custom_css": [
         "span {font-family: \"Helvetica\" !important;}"
@@ -23,7 +39,7 @@
         "color_scheme": "",
         "show_line_separator": true,
         "show_social": false,
-        "auto_rotate": false,
+        "auto_rotate": true,
         "change_slides_speed": 5,
         "enable_country_selector": false,
         "enable_language_selector": false
@@ -35,7 +51,7 @@
         "a {margin-top: 20px;}",
         "summary {margin-top: 20px;}",
         " {background-color: #fffdfa;}",
-        ".heading{font-family: 'Nunito Sans';}"
+        ".heading {font-family: \"Nunito Sans\";}"
       ],
       "settings": {
         "logo_position": "middle-center",
