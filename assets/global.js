@@ -17,7 +17,14 @@ document.querySelectorAll('[id^="Details-"] summary').forEach((summary) => {
     summary.setAttribute('aria-controls', summary.nextElementSibling.id);
   }
 
-  summary.addEventListener('hover', (event) => {
+  summary.addEventListener('mouseenter', (event) => {
+    event.currentTarget.setAttribute(
+      'aria-expanded',
+      !event.currentTarget.closest('details').hasAttribute('open'),
+    );
+  });
+
+  summary.addEventListener('mouseleave', (event) => {
     event.currentTarget.setAttribute(
       'aria-expanded',
       !event.currentTarget.closest('details').hasAttribute('open'),
