@@ -77,6 +77,9 @@ details[open].menu-opening > .menu-drawer__submenu {
     border-style: solid;
     border-color: rgba(var(--color-foreground), var(--drawer-border-opacity));
   }
+  .header__menu-item:hover .mega-menu__content {
+    display: flex;
+  }
 
   .no-js .menu-drawer {
     height: auto;
