@@ -9,7 +9,7 @@
           "type": "heading",
           "settings": {
             "heading": "Haven’t subscribed yet? How Dairy!",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "sections--16944793977067__450ec5d4-611a-43db-bd6b-7dcfc859a729-email_form-1": {
@@ -32,7 +32,9 @@
       "custom_css": [
         "@media screen and (min-width: 750px) {.newsletter-form {max-width: 40%; } .newsletter__wrapper .newsletter-form__field-wrapper {max-width: 70rem; } .form-newsletter {width: 90%; }}",
         ".field {width: 100%;}",
-        ".newsletter-form__button {width: 275px;}"
+        ".newsletter-form__button {width: 275px;}",
+        ".newsletter__subheading p {color: #fffdfa; font-size: 20px;}",
+        "h2 {font-size: 28px;}"
       ],
       "settings": {
         "color_scheme": "inverse",
@@ -74,7 +76,7 @@
       "custom_css": [
         ".footer-block__details-content {display: flex; gap: 4rem; margin-bottom: 0;}",
         "ul {align-items: center;}",
-        "a {font-size: 2rem; color: white;}",
+        "a {font-size: 2rem; color: white; font-family: Helvetica;}",
         ".footer-block {display: flex; justify-content: center; align-items: center;}",
         ".link--text {font-size: 28px;}",
         ".list-payment__item {display: none;}",
