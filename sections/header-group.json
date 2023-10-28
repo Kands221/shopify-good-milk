@@ -33,7 +33,8 @@
         "d648bed9-3e0e-418e-87fd-6a4d471ee7ff"
       ],
       "custom_css": [
-        "span {font-family: \"Helvetica\" !important;}"
+        "span {font-family: \"Helvetica\" !important;}",
+        ".slider-button{display: none;}"
       ],
       "settings": {
         "color_scheme": "",
