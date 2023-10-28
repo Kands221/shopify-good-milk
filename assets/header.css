@@ -47,6 +47,9 @@
 .shopify-section-header-sticky .mega-menu__content {
   max-height: calc(100vh - var(--header-bottom-position-desktop, 20rem) - 4rem);
 }
+.header__menu-item:hover .mega-menu__content {
+  display: flex;
+}
 
 .header-wrapper--border-bottom .mega-menu__content {
   border-top: 0;
