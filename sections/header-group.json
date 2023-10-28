@@ -34,7 +34,8 @@
       "custom_css": [
         "a {margin-top: 20px;}",
         "summary {margin-top: 20px;}",
-        " {background-color: #fffdfa;}"
+        " {background-color: #fffdfa;}",
+        ".heading{font-family: 'Nunito Sans';}"
       ],
       "settings": {
         "logo_position": "middle-center",
