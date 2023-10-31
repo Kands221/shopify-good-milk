@@ -8,13 +8,10 @@ class DetailsModal extends HTMLElement {
       'keyup',
       (event) => event.code.toUpperCase() === 'ESCAPE' && this.close(),
     );
-
-    // Change 'click' event to 'mouseover' event
-    this.summaryToggle.addEventListener('mouseover', this.open.bind(this));
-
-    // Optional: Close the modal on mouseout
-    this.summaryToggle.addEventListener('mouseout', this.close.bind(this));
-
+    this.summaryToggle.addEventListener(
+      'click',
+      this.onSummaryClick.bind(this),
+    );
     this.querySelector('button[type="button"]').addEventListener(
       'click',
       this.close.bind(this),
@@ -23,12 +20,30 @@ class DetailsModal extends HTMLElement {
     this.summaryToggle.setAttribute('role', 'button');
   }
 
-  // Rest of the class remains the same
+  isOpen() {
+    return this.detailsContainer.hasAttribute('open');
+  }
+
+  onSummaryClick(event) {
+    event.preventDefault();
+    event.target.closest('details').hasAttribute('open')
+      ? this.close()
+      : this.open(event);
+  }
+
+  onBodyClick(event) {
+    if (
+      !this.contains(event.target) ||
+      event.target.classList.contains('modal-overlay')
+    )
+      this.close(false);
+  }
+
   open(event) {
-    this.onBodyHoverEvent =
-      this.onBodyHoverEvent || this.onBodyHover.bind(this);
+    this.onBodyClickEvent =
+      this.onBodyClickEvent || this.onBodyClick.bind(this);
     event.target.closest('details').setAttribute('open', true);
-    document.body.addEventListener('mouseover', this.onBodyHoverEvent);
+    document.body.addEventListener('click', this.onBodyClickEvent);
     document.body.classList.add('overflow-hidden');
 
     trapFocus(
@@ -40,18 +55,8 @@ class DetailsModal extends HTMLElement {
   close(focusToggle = true) {
     removeTrapFocus(focusToggle ? this.summaryToggle : null);
     this.detailsContainer.removeAttribute('open');
-    document.body.removeEventListener('mouseover', this.onBodyHoverEvent);
+    document.body.removeEventListener('click', this.onBodyClickEvent);
     document.body.classList.remove('overflow-hidden');
-  }
-
-  onBodyHover(event) {
-    // Check if the event target is inside the details container
-    const isInsideDetails = this.detailsContainer.contains(event.target);
-
-    // If not, close the details container
-    if (!isInsideDetails) {
-      this.close(false);
-    }
   }
 }
 
