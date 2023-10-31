@@ -34,7 +34,8 @@
         ".field {width: 100%;}",
         ".newsletter-form__button {width: 275px;}",
         ".newsletter__subheading p {color: #fffdfa; font-size: 20px;}",
-        "h2 {font-size: 28px;}"
+        "h2 {font-size: 28px;}",
+        ".inline-richtext {margin: 20px 0 0 0px;}"
       ],
       "settings": {
         "color_scheme": "inverse",
