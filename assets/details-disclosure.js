@@ -2,6 +2,7 @@ class DetailsDisclosure extends HTMLElement {
   constructor() {
     super();
     this.mainDetailsToggle = this.querySelector('details');
+    this.divDetails = document.querySelector('.mega-menu__content');
     this.content =
       this.mainDetailsToggle.querySelector('summary').nextElementSibling;
 
@@ -11,11 +12,10 @@ class DetailsDisclosure extends HTMLElement {
     );
     this.mainDetailsToggle.addEventListener('toggle', this.onToggle.bind(this));
     this.addEventListener('mouseover', this.onMouseOver.bind(this));
-    this.mega -
-      menu__content.addEventListener(
-        'mouseleave',
-        this.onMouseLeave.bind(this),
-      );
+    this.divDetails.addEventListener(
+      'mouseleave',
+      this.onMouseLeave.bind(this),
+    );
   }
 
   onFocusOut() {
