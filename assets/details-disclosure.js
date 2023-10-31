@@ -11,6 +11,7 @@ class DetailsDisclosure extends HTMLElement {
     );
     this.mainDetailsToggle.addEventListener('toggle', this.onToggle.bind(this));
     this.addEventListener('mouseover', this.onMouseOver.bind(this));
+    this.addEventListener('mouseleave', this.onMouseLeave.bind(this));
   }
 
   onFocusOut() {
@@ -34,6 +35,12 @@ class DetailsDisclosure extends HTMLElement {
     this.mainDetailsToggle
       .querySelector('summary')
       .setAttribute('aria-expanded', true);
+  }
+  onMouseLeave() {
+    this.mainDetailsToggle.removeAttribute('open');
+    this.mainDetailsToggle
+      .querySelector('summary')
+      .setAttribute('aria-expanded', false);
   }
 
   close() {
