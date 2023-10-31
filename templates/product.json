@@ -125,7 +125,7 @@
           "settings": {
             "heading": "Handling Instructions:",
             "icon": "none",
-            "row_content": "<p>Stored in our sterilized 250ml glass bottles, the metal lid ensures that every drop stays as fresh as the first sip. To keep the fresh milk tasting best, always keep it cool between 0°C to 4°C and consume it within 3 days of opening.<\/p>",
+            "row_content": "<p>{{ product.metafields.custom.handling_instructions | metafield_tag }}<\/p>",
             "page": ""
           }
         }
