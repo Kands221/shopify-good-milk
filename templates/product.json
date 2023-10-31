@@ -116,7 +116,7 @@
           "settings": {
             "heading": "Perfectly paired with:",
             "icon": "none",
-            "row_content": "<p>Coffee or tea, warm cookies, oatmeal with fruits, freshly-baked bread, breakfast cereals, and spicy foods!<\/p>",
+            "row_content": "<p>{{ product.metafields.custom.fresh_milk | metafield_tag }}<\/p>",
             "page": ""
           }
         },
