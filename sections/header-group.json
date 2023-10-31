@@ -54,9 +54,7 @@
         ".header__heading-link {margin-bottom: 30px;}",
         " {background-color: #fffdfa;}",
         ".heading {font-family: \"Nunito Sans\"; font-size: 20px;}",
-        ".header__heading {margin-bottom: 0px;}",
-        ".search {width: 28px;}",
-        ".cart-search{width: 35px;}"
+        ".header__heading {margin-bottom: 0px;}"
       ],
       "settings": {
         "logo_position": "middle-center",
