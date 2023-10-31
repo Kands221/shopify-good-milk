@@ -34,7 +34,7 @@
       ],
       "custom_css": [
         "span {font-family: \"Helvetica\" !important;}",
-        ".slider-button{display: none;}"
+        ".slider-button {display: none;}"
       ],
       "settings": {
         "color_scheme": "",
@@ -52,7 +52,7 @@
         "a {margin-top: 20px;}",
         "summary {margin-top: 20px;}",
         " {background-color: #fffdfa;}",
-        ".heading {font-family: \"Nunito Sans\";}"
+        ".heading {font-family: \"Nunito Sans\"; font-size: 20px;}"
       ],
       "settings": {
         "logo_position": "middle-center",
