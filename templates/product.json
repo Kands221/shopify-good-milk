@@ -71,7 +71,8 @@
         ".button {background: black; border-radius: 50px;}",
         ".button span {color: white;}",
         "span {font-family: Helvetica !important;}",
-        ".thumbnail-list {grid-template-columns: repeat(3, 1fr); margin: 0 20px;}"
+        ".thumbnail-list {grid-template-columns: repeat(3, 1fr); margin: 0 20px;}",
+        "h1 {font-size: 32px;}"
       ],
       "settings": {
         "enable_sticky_info": false,
