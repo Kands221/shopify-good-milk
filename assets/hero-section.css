@@ -24,6 +24,7 @@
 }
 .fm-button {
   text-align: center;
+  transition: transform 0.2s;
 }
 .fm-button:hover {
   transform: scale(1.1);
