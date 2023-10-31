@@ -102,6 +102,10 @@
   padding-right: 2.4rem;
 }
 
+.search {
+  width: 28px;
+}
+
 .mega-menu__link:hover,
 .mega-menu__link--active {
   color: white;
