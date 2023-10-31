@@ -22,6 +22,21 @@
   background: #fffdfa;
   border: 4px solid #b49868;
 }
+.add-to-cart-choc:hover {
+  color: #643b29;
+  background: #fffdfa;
+  border: 4px solid #643b29;
+}
+.add-to-cart-straw:hover {
+  color: #e885b1;
+  background: #fffdfa;
+  border: 4px solid #e885b1;
+}
+.add-to-cart-pan:hover {
+  color: #519361;
+  background: #fffdfa;
+  border: 4px solid #519361;
+}
 .add-to-cart {
   border-radius: 100px;
 }
