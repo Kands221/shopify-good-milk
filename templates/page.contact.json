@@ -14,7 +14,7 @@
         "select {border: 2px solid #323232;}",
         "input {border: 2px solid #323232;}",
         "textarea {border: 2px solid #323232;}",
-        ".button {background: #323232; color: #fffdfa; border-radius: 100px;}"
+        ".button {background: #323232; color: #fffdfa; border-radius: 100px; width: 100%;}"
       ],
       "settings": {
         "heading": "Have Questions for us?",
