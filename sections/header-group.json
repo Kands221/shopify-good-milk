@@ -51,6 +51,7 @@
       "custom_css": [
         "a {margin-top: 20px;}",
         "summary {margin-top: 20px;}",
+        ".header__heading{margin-bottom:30px;}",
         " {background-color: #fffdfa;}",
         ".heading {font-family: \"Nunito Sans\"; font-size: 20px;}"
       ],
