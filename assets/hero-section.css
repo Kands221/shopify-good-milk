@@ -25,6 +25,9 @@
 .fm-button {
   text-align: center;
 }
+.fm-button:hover {
+  scale: 100%;
+}
 .prices {
   display: flex;
   flex-direction: column;
