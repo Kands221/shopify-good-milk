@@ -29,19 +29,18 @@ class DetailsDisclosure extends HTMLElement {
     }
   }
 
+  onMouseOver() {
+    this.mainDetailsToggle.setAttribute('open', '');
+    this.mainDetailsToggle
+      .querySelector('summary')
+      .setAttribute('aria-expanded', true);
+  }
+
   close() {
     this.mainDetailsToggle.removeAttribute('open');
     this.mainDetailsToggle
       .querySelector('summary')
       .setAttribute('aria-expanded', false);
-
-    onMouseOver();
-    {
-      this.mainDetailsToggle.setAttribute('open', '');
-      this.mainDetailsToggle
-        .querySelector('summary')
-        .setAttribute('aria-expanded', true);
-    }
   }
 }
 
