@@ -17,6 +17,11 @@
   box-sizing: border-box;
   text-align: center;
 }
+.add-to-cart-fm:hover {
+  color: #b49868;
+  background: #fffdfa;
+  border: 4px solid #b49868;
+}
 .add-to-cart {
   border-radius: 100px;
 }
