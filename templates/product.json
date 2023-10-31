@@ -23,7 +23,7 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button"
+            "picker_type": "dropdown"
           }
         },
         "description": {
@@ -72,7 +72,8 @@
         ".button span {color: white;}",
         "span {font-family: Helvetica !important;}",
         ".thumbnail-list {grid-template-columns: repeat(3, 1fr); margin: 0 20px;}",
-        "h1 {font-size: 32px;}"
+        "h1 {font-size: 32px;}",
+        ".price{margin-bottom: 40px;}"
       ],
       "settings": {
         "enable_sticky_info": false,
