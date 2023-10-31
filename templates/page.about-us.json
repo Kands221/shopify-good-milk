@@ -3,11 +3,11 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        "h1{text-align: center; font-size: 32px;}"
+        "h1 {text-align: center; font-size: 32px;}"
       ],
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     }
   },
