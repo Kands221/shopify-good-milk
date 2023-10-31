@@ -105,6 +105,9 @@
 .search {
   width: 28px;
 }
+.cart-search {
+  width: 35px;
+}
 
 .mega-menu__link:hover,
 .mega-menu__link--active {
