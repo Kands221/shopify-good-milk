@@ -2626,7 +2626,6 @@ product-info .loading-overlay:not(.hidden) ~ *,
 }
 
 .header__icon--menu[aria-expanded='true']::before {
-  content: '';
   top: 100%;
   left: 0;
   height: calc(
