@@ -14,7 +14,7 @@
   background-image: url(Modal.png);
   margin: auto;
   padding: 20px;
-  background-size: 100%;
+  background-size: 100% 100%;
   width: 100%;
   max-width: 900px;
   max-height: 460px;
