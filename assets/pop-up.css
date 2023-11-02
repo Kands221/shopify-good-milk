@@ -39,3 +39,10 @@
   text-decoration: none;
   cursor: pointer;
 }
+@media screen and (max-width: 992px) {
+  .modal-content {
+    width: 80%;
+
+    height: 25%;
+  }
+}
