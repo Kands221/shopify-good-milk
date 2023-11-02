@@ -66,6 +66,11 @@
             "content": "<p>{{ product.metafields.custom.handling_instructions | metafield_tag }}<\/p>",
             "page": ""
           }
+        },
+        "abe00936-0ae8-403d-88a9-1dd372bd995e": {
+          "type": "shopify:\/\/apps\/appstle-subscriptions-app\/blocks\/appstle-subscription-product-page-widget\/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -78,7 +83,8 @@
         "buy_buttons",
         "7c52e961-947c-4aa6-8ecf-98cebdceb469",
         "4a142a19-50f1-4bf8-af4a-dd0b4452b0ed",
-        "a05d7177-2000-4225-a1fa-7ae9f4871d1e"
+        "a05d7177-2000-4225-a1fa-7ae9f4871d1e",
+        "abe00936-0ae8-403d-88a9-1dd372bd995e"
       ],
       "custom_css": [
         ".button {background: #323232; border-radius: 50px;}",
