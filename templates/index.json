@@ -1,5 +1,10 @@
 {
   "sections": {
+    "3ea62274-6f9b-46eb-8080-86d7cfa92756": {
+      "type": "pop-up",
+      "settings": {
+      }
+    },
     "262d9a3b-b419-4aa6-8023-027e85426aff": {
       "type": "hero-section",
       "custom_css": [
@@ -78,6 +83,7 @@
     }
   },
   "order": [
+    "3ea62274-6f9b-46eb-8080-86d7cfa92756",
     "262d9a3b-b419-4aa6-8023-027e85426aff",
     "bc67f435-b515-4221-a5ed-9ddd7e8703dc",
     "f7920c3c-d589-4f43-87da-f9f80d9847c4",
