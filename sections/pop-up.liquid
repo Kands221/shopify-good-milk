@@ -11,10 +11,27 @@
 }
 {% endschema %}
 <link rel='stylesheet' href='{{ 'pop-up.css' | asset_url }}'>
-<div id='popup1' class='overlay'>
-  <div class='popup'>
-    <h2>Here i am</h2>
-    <a class='close' href='#'>&times;</a>
-    <div class='content'>Thank to pop me out of that button, but now i'm done so you can close this window.</div>
+<div class='modal'>
+  <div class='modal-content'>
+    <span class='close'>&times;</span>
+    <p>This is a modal window. Click outside this box to close it.</p>
   </div>
 </div>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var modal = document.querySelector('.modal');
+    var closeBtn = document.querySelector('.close');
+
+    modal.style.display = 'block';
+
+    closeBtn.addEventListener('click', function () {
+      modal.style.display = 'none';
+    });
+
+    window.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+      }
+    });
+  });
+</script>
